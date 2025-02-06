@@ -1,0 +1,16 @@
+include irvine32.inc
+
+.code
+main proc
+	mov eax, 10001101b
+	sub eax, 0D83h
+	add eax, 385
+	add eax, 10
+	add eax, 1111101b
+	sub eax, 0Eh
+	add eax, 0Fh
+
+	call writeint
+	exit
+main endp
+end main
