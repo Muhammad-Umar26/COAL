@@ -1,0 +1,12 @@
+include irvine32.inc
+
+.data
+    val3 sdword -2147483648
+
+.code
+main proc
+
+    exit
+main endp
+
+end main
